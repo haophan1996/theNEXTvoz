@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B1F197A279C822E00252583 /* modelContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F1979279C822E00252583 /* modelContent.swift */; };
+		8B1F197E279C871B00252583 /* HTMLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F197D279C871B00252583 /* HTMLView.swift */; };
+		8B1F1980279C894400252583 /* ContentForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1F197F279C894400252583 /* ContentForum.swift */; };
+		8B1F1983279C8E1900252583 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F1982279C8E1800252583 /* index.html */; };
+		8B1F1985279C8EBE00252583 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 8B1F1984279C8EBE00252583 /* style.css */; };
+		8B5F166727CC26B30098A305 /* ViewReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F166627CC26B30098A305 /* ViewReaction.swift */; };
+		8B5F166927CC2E6D0098A305 /* modelReaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B5F166827CC2E6D0098A305 /* modelReaction.swift */; };
+		8B62CE50279611A800448324 /* theNEXTvozApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE4F279611A800448324 /* theNEXTvozApp.swift */; };
+		8B62CE52279611A800448324 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE51279611A800448324 /* HomePage.swift */; };
+		8B62CE54279611AC00448324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B62CE53279611AC00448324 /* Assets.xcassets */; };
+		8B62CE57279611AC00448324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B62CE56279611AC00448324 /* Preview Assets.xcassets */; };
+		8B62CE61279612B600448324 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = 8B62CE60279612B600448324 /* SwiftSoup */; };
+		8B62CE64279612E700448324 /* modelHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE63279612E700448324 /* modelHome.swift */; };
+		8B62CE672796147800448324 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE662796147800448324 /* LoadingView.swift */; };
+		8B62CE6A2796204D00448324 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE692796204D00448324 /* NetworkConnection.swift */; };
+		8B62CE6E279645CA00448324 /* SubForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE6D279645CA00448324 /* SubForum.swift */; };
+		8B62CE70279645E800448324 /* modelSubForum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE6F279645E800448324 /* modelSubForum.swift */; };
+		8B62CE722796468300448324 /* fetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B62CE712796468300448324 /* fetchData.swift */; };
+		8BC20727279FDD6500BE604E /* BeVietnamPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC20724279FDD6500BE604E /* BeVietnamPro-Italic.ttf */; };
+		8BC20728279FDD6500BE604E /* BeVietnamPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC20725279FDD6500BE604E /* BeVietnamPro-Regular.ttf */; };
+		8BC20729279FDD6500BE604E /* BeVietnamPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BC20726279FDD6500BE604E /* BeVietnamPro-Bold.ttf */; };
+		8BE3CB0327993C340036973F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE3CB0227993C340036973F /* Extension.swift */; };
+		8BF88D8427CB357000829884 /* WebViewStateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF88D8327CB357000829884 /* WebViewStateModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B1F1979279C822E00252583 /* modelContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelContent.swift; sourceTree = "<group>"; };
+		8B1F197D279C871B00252583 /* HTMLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLView.swift; sourceTree = "<group>"; };
+		8B1F197F279C894400252583 /* ContentForum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentForum.swift; sourceTree = "<group>"; };
+		8B1F1982279C8E1800252583 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		8B1F1984279C8EBE00252583 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
+		8B5F166627CC26B30098A305 /* ViewReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewReaction.swift; sourceTree = "<group>"; };
+		8B5F166827CC2E6D0098A305 /* modelReaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelReaction.swift; sourceTree = "<group>"; };
+		8B62CE4C279611A800448324 /* theNEXTvoz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theNEXTvoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B62CE4F279611A800448324 /* theNEXTvozApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theNEXTvozApp.swift; sourceTree = "<group>"; };
+		8B62CE51279611A800448324 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		8B62CE53279611AC00448324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B62CE56279611AC00448324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B62CE5D2796120400448324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B62CE63279612E700448324 /* modelHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelHome.swift; sourceTree = "<group>"; };
+		8B62CE662796147800448324 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		8B62CE692796204D00448324 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		8B62CE6D279645CA00448324 /* SubForum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubForum.swift; sourceTree = "<group>"; };
+		8B62CE6F279645E800448324 /* modelSubForum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modelSubForum.swift; sourceTree = "<group>"; };
+		8B62CE712796468300448324 /* fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchData.swift; sourceTree = "<group>"; };
+		8B91EBFA279E3E74001ABDB5 /* theNEXTvoz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = theNEXTvoz.entitlements; sourceTree = "<group>"; };
+		8BC20724279FDD6500BE604E /* BeVietnamPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-Italic.ttf"; sourceTree = "<group>"; };
+		8BC20725279FDD6500BE604E /* BeVietnamPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-Regular.ttf"; sourceTree = "<group>"; };
+		8BC20726279FDD6500BE604E /* BeVietnamPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BeVietnamPro-Bold.ttf"; sourceTree = "<group>"; };
+		8BE3CB0227993C340036973F /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8BF88D8327CB357000829884 /* WebViewStateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewStateModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B62CE49279611A800448324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B62CE61279612B600448324 /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B1F197B279C85AA00252583 /* HTML */ = {
+			isa = PBXGroup;
+			children = (
+				8BC20726279FDD6500BE604E /* BeVietnamPro-Bold.ttf */,
+				8BC20724279FDD6500BE604E /* BeVietnamPro-Italic.ttf */,
+				8BC20725279FDD6500BE604E /* BeVietnamPro-Regular.ttf */,
+				8B1F1984279C8EBE00252583 /* style.css */,
+				8B1F1982279C8E1800252583 /* index.html */,
+				8B1F197D279C871B00252583 /* HTMLView.swift */,
+				8BF88D8327CB357000829884 /* WebViewStateModel.swift */,
+			);
+			path = HTML;
+			sourceTree = "<group>";
+		};
+		8B62CE43279611A800448324 = {
+			isa = PBXGroup;
+			children = (
+				8B62CE4E279611A800448324 /* theNEXTvoz */,
+				8B62CE4F279611A800448324 /* theNEXTvozApp.swift */,
+				8B62CE4D279611A800448324 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B62CE4D279611A800448324 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B62CE4C279611A800448324 /* theNEXTvoz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B62CE4E279611A800448324 /* theNEXTvoz */ = {
+			isa = PBXGroup;
+			children = (
+				8B91EBFA279E3E74001ABDB5 /* theNEXTvoz.entitlements */,
+				8B62CE5D2796120400448324 /* Info.plist */,
+				8B62CE53279611AC00448324 /* Assets.xcassets */,
+				8B62CE55279611AC00448324 /* Preview Content */,
+				8B1F197B279C85AA00252583 /* HTML */,
+				8BE3CB0127993C000036973F /* extension */,
+				8B62CE652796145D00448324 /* UINoti */,
+				8B62CE62279612D800448324 /* Model */,
+				8B62CE68279614C900448324 /* Components */,
+			);
+			path = theNEXTvoz;
+			sourceTree = "<group>";
+		};
+		8B62CE55279611AC00448324 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B62CE56279611AC00448324 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B62CE62279612D800448324 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B62CE63279612E700448324 /* modelHome.swift */,
+				8B62CE6F279645E800448324 /* modelSubForum.swift */,
+				8B1F1979279C822E00252583 /* modelContent.swift */,
+				8B5F166827CC2E6D0098A305 /* modelReaction.swift */,
+				8B62CE712796468300448324 /* fetchData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B62CE652796145D00448324 /* UINoti */ = {
+			isa = PBXGroup;
+			children = (
+				8B62CE662796147800448324 /* LoadingView.swift */,
+				8B62CE692796204D00448324 /* NetworkConnection.swift */,
+			);
+			path = UINoti;
+			sourceTree = "<group>";
+		};
+		8B62CE68279614C900448324 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8B62CE51279611A800448324 /* HomePage.swift */,
+				8B62CE6D279645CA00448324 /* SubForum.swift */,
+				8B1F197F279C894400252583 /* ContentForum.swift */,
+				8B5F166627CC26B30098A305 /* ViewReaction.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8BE3CB0127993C000036973F /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8BE3CB0227993C340036973F /* Extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B62CE4B279611A800448324 /* theNEXTvoz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B62CE5A279611AC00448324 /* Build configuration list for PBXNativeTarget "theNEXTvoz" */;
+			buildPhases = (
+				8B62CE48279611A800448324 /* Sources */,
+				8B62CE49279611A800448324 /* Frameworks */,
+				8B62CE4A279611A800448324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = theNEXTvoz;
+			packageProductDependencies = (
+				8B62CE60279612B600448324 /* SwiftSoup */,
+			);
+			productName = theNEXTvoz;
+			productReference = 8B62CE4C279611A800448324 /* theNEXTvoz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B62CE44279611A800448324 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B62CE4B279611A800448324 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B62CE47279611A800448324 /* Build configuration list for PBXProject "theNEXTvoz" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B62CE43279611A800448324;
+			packageReferences = (
+				8B62CE5F279612B600448324 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
+			productRefGroup = 8B62CE4D279611A800448324 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B62CE4B279611A800448324 /* theNEXTvoz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B62CE4A279611A800448324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B62CE57279611AC00448324 /* Preview Assets.xcassets in Resources */,
+				8BC20727279FDD6500BE604E /* BeVietnamPro-Italic.ttf in Resources */,
+				8BC20729279FDD6500BE604E /* BeVietnamPro-Bold.ttf in Resources */,
+				8B1F1985279C8EBE00252583 /* style.css in Resources */,
+				8B1F1983279C8E1900252583 /* index.html in Resources */,
+				8B62CE54279611AC00448324 /* Assets.xcassets in Resources */,
+				8BC20728279FDD6500BE604E /* BeVietnamPro-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B62CE48279611A800448324 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BE3CB0327993C340036973F /* Extension.swift in Sources */,
+				8B5F166727CC26B30098A305 /* ViewReaction.swift in Sources */,
+				8B1F1980279C894400252583 /* ContentForum.swift in Sources */,
+				8B62CE52279611A800448324 /* HomePage.swift in Sources */,
+				8B62CE64279612E700448324 /* modelHome.swift in Sources */,
+				8B1F197A279C822E00252583 /* modelContent.swift in Sources */,
+				8B62CE70279645E800448324 /* modelSubForum.swift in Sources */,
+				8B62CE6E279645CA00448324 /* SubForum.swift in Sources */,
+				8B62CE6A2796204D00448324 /* NetworkConnection.swift in Sources */,
+				8B62CE672796147800448324 /* LoadingView.swift in Sources */,
+				8B1F197E279C871B00252583 /* HTMLView.swift in Sources */,
+				8B5F166927CC2E6D0098A305 /* modelReaction.swift in Sources */,
+				8B62CE722796468300448324 /* fetchData.swift in Sources */,
+				8B62CE50279611A800448324 /* theNEXTvozApp.swift in Sources */,
+				8BF88D8427CB357000829884 /* WebViewStateModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B62CE58279611AC00448324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B62CE59279611AC00448324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B62CE5B279611AC00448324 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = theNEXTvoz/theNEXTvoz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"theNEXTvoz/Preview Content\"";
+				DEVELOPMENT_TEAM = V44R682G6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = theNEXTvoz/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need permission to write photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haophan.theNEXTvoz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B62CE5C279611AC00448324 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = theNEXTvoz/theNEXTvoz.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"theNEXTvoz/Preview Content\"";
+				DEVELOPMENT_TEAM = V44R682G6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = theNEXTvoz/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need permission to write photos";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.haophan.theNEXTvoz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B62CE47279611A800448324 /* Build configuration list for PBXProject "theNEXTvoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B62CE58279611AC00448324 /* Debug */,
+				8B62CE59279611AC00448324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B62CE5A279611AC00448324 /* Build configuration list for PBXNativeTarget "theNEXTvoz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B62CE5B279611AC00448324 /* Debug */,
+				8B62CE5C279611AC00448324 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8B62CE5F279612B600448324 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8B62CE60279612B600448324 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8B62CE5F279612B600448324 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8B62CE44279611A800448324 /* Project object */;
+}

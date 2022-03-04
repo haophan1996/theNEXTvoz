@@ -1,0 +1,385 @@
+:root {
+  color-scheme: light dark;
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url("BeVietnamPro-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url("BeVietnamPro-Bold.ttf") format('truetype');
+  font-weight: bold;
+}
+
+html {
+  margin: 0em;
+  max-width: 100%;
+  overflow-x: hidden;
+  line-height: 1.5;
+  font-family: "Be Vietnam Pro";
+  background-color: rgb(255, 255, 255);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+  }
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.js-selectToQuoteEnd {
+  display: none;
+}
+ 
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: rgb(249, 243, 243);
+  }
+}
+
+a:hover {
+  color: #f60;
+}
+
+img {
+  max-width: 99%;
+  max-height: 99%;
+  height: auto;
+  width: auto;
+}
+
+.bbImageWrapper {
+  display: inline;
+}
+
+iframe {
+  max-width: 99%;
+  max-height: 75%;
+}
+
+/* Header user */
+.message-cell {
+  display: block;
+  padding: 5px;
+}
+
+.message-cell.message-cell--user {
+  background: rgb(227, 226, 226);
+  border-radius: 5px;
+  border-right: 1px solid #c3c6c9;
+}
+
+@media (prefers-color-scheme: dark) {
+  .message-cell.message-cell--user {
+    background: rgb(52, 51, 51);
+    border-right: 1px solid #272728;
+  }
+}
+
+.message:not(.message--forceColumns) .message-user {
+  display: flex;
+}
+
+.message:not(.message--forceColumns) .message-userDetails {
+  padding-left: 10px;
+}
+
+.message-name {
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.message-name > a {
+  color: #f60;
+}
+
+.message:not(.message--forceColumns) .message-name {
+  text-align: left;
+}
+
+.message:not(.message--forceColumns) .message-userTitle {
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+}
+
+.userBanner {
+  font-size: 75%;
+  padding: 1px 6px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.userBanner.userBanner--primary {
+  color: #23497c;
+  background: #dce7f5;
+  border-color: #869bbf;
+  color: rgb(35, 73, 124);
+}
+
+.message:not(.message--forceColumns) .message-userBanner.userBanner {
+  display: inline-block;
+  text-align: left;
+  margin: 0;
+}
+
+.userBanner.userBanner--accent {
+  color: #f60;
+  background: #ffe0cc;
+  border-color: #ffc299;
+  border-color: #ffba8c;
+}
+
+.avatar {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.message:not(.message--forceColumns) .message-avatar .avatar {
+  width: 48px;
+  height: 48px;
+  font-size: 29px;
+  width: 48px;
+  height: 48px;
+  font-size: 29px;
+}
+
+.avatar img:not(.cropImage) {
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  word-wrap: normal;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+/* end user header */
+
+.js-bookmarkText.u-srOnly {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-attribution.message-attribution--split {
+  margin-top: -1em;
+  margin-bottom: -0.5em;
+  display: flex;
+  align-items: flex-end;
+   
+  /* flex-wrap: wrap; */
+}
+ 
+
+/*Configure message body*/
+.message-lastEdit {
+  margin-top: 0.5em;
+  color: #8f9193;
+  font-size: 0.75rem;
+  text-align: right;
+}
+
+.message-content.js-messageContent {
+  margin-bottom: 0.5em;
+  border-top: 0.5px solid #d3d5d7;
+}
+
+.message-newIndicator, a.message-newIndicator {
+  font-size: 90%;
+  color: #fff;
+  background: #ff944d;
+  margin-right: 0.5em;
+  border-radius: 2px;
+  padding-top: 1px;
+  padding-right: 4px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+}
+
+.message-attribution-main {
+  float: left;
+}
+
+.message-attribution.message-attribution--split .message-attribution-opposite {
+  margin-left: auto;
+}
+.message-attribution-opposite.message-attribution-opposite--list {
+  display: -webkit-inline-flex;
+}
+
+.message-attribution-opposite.message-attribution-opposite--list > li > a {
+  pointer-events: none;
+}
+
+.u-concealed {
+  pointer-events: none;
+}
+
+.message-attribution-opposite {
+  float: right;
+}
+
+/* Reaction Bar */
+
+.reactionsBar.is-active {
+  border-top: 0.5px solid gray;
+  /* margin-bottom: 0.5em; */
+}
+
+.message .reactionsBar {
+  padding-top: 6px;
+}
+
+.reactionSummary {
+  display: inline-block;
+  margin: 0;
+  height: 16px;
+}
+
+.u-srOnly {
+  display: none;
+}
+
+.reactionSummary > li {
+  display: inline-block;
+  height: 18px;
+  width: 20px;
+  padding: 2px;
+  background: #ebeced;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.reaction--small .reaction-image {
+  max-width: 16px;
+  max-height: 16px;
+}
+/* end reaction bar */
+
+/* reaction */
+
+.actionBar-set.actionBar-set--external {
+  float: right;
+  margin-right: 0.2em;
+}
+
+.actionBar-action.actionBar-action--report {
+  margin-left: 0.2em;
+}
+
+.reaction.reaction--imageHidden img {
+  display: none;
+}
+/* end reaction*/
+
+/*Seperator article*/
+/* .message.message--post {
+  border-bottom: 3px solid gray;
+} */
+/* End */
+
+/* blockquote start */
+
+.bbCodeBlock {
+  display: flow-root;
+  margin: 0.5em 0;
+  /* border-left: 3px solid #ff944d;   */
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-left: 1px solid;
+  border-right: 1px solid;
+  border-radius: 4px;
+}
+
+.bbCodeBlock--expandable {
+  overflow: hidden;
+  transition: -xf-height 0.25s ease, height 0.25s ease, padding 0.25s ease,
+    margin 0.25s ease, border 0.25s ease;
+}
+
+.bbCodeBlock-title {
+  padding: 6px 0px 1px 10px;
+}
+
+.bbCodeBlock-sourceJump {
+  color: #ff944d;
+}
+
+.bbCodeBlock-content {
+  position: relative;
+  padding: 6px 10px;
+}
+
+/* .bbCodeBlock-content  {
+  font-size: 0.875rem;
+}  */
+
+.bbCodeBlock-expandLink {
+  display: none;
+  position: absolute;
+  top: 85px;
+  left: 0;
+  right: 0;
+  height: 75px;
+  cursor: pointer;
+  z-index: 100;
+}
+ 
+
+.bbCodeBlock-expandLink {
+  display: block;
+}
+
+.bbCodeBlock-expandLink a {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #ff944d;
+  background: linear-gradient(to bottom, rgba(226,227,229,0) 0%, #e2e3e5 80%);
+}
+
+.bbCodeBlock--expandable.is-expanded .bbCodeBlock-expandContent {
+  max-height: none;
+}
+
+.bbCodeBlock-expandContent {
+  max-height: 150px;
+  overflow: hidden;
+}
+
+/* blockquote end */
+
+.overlay-s-style {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
